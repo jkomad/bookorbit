@@ -39,3 +39,11 @@ test-results/
 
 # vite-plugin-pwa dev service worker output
 dev-dist
+
+# infrastructure 
+*.tfstate 
+*.tfstate.backup 
+.terraform.tfstate.lock.info
+*/.terraform/
+*.tfvars
+.env.terraform
